@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "composite": false,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@lonr/ref-links-utils": ["../ref-links-utils/src/ref-links-utils.ts"]
+    }
+  },
+  "include": ["src", "tests", "typings", "rollup.config.ts", "jest.config.ts", "webpack.config.js"],
+  "references": [
+    {
+      "path": "../ref-links-utils/tsconfig.build.json"
+    }
+  ]
+}

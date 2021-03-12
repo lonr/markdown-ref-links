@@ -1,0 +1,1986 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fixtures 1`] = `
+Outline {
+  "children": Array [
+    Section {
+      "children": Array [
+        Section {
+          "children": Array [
+            Section {
+              "children": Array [],
+              "heading": Object {
+                "children": Array [
+                  Object {
+                    "position": Object {
+                      "end": Object {
+                        "column": 7,
+                        "line": 15,
+                        "offset": 122,
+                      },
+                      "start": Object {
+                        "column": 5,
+                        "line": 15,
+                        "offset": 120,
+                      },
+                    },
+                    "type": "text",
+                    "value": "h3",
+                  },
+                ],
+                "depth": 3,
+                "position": Object {
+                  "end": Object {
+                    "column": 7,
+                    "line": 15,
+                    "offset": 122,
+                  },
+                  "start": Object {
+                    "column": 1,
+                    "line": 15,
+                    "offset": 116,
+                  },
+                },
+                "type": "heading",
+              },
+              "images": Array [],
+              "introEnd": Object {
+                "identifier": "2",
+                "label": "2",
+                "position": Object {
+                  "end": Object {
+                    "column": 19,
+                    "line": 21,
+                    "offset": 174,
+                  },
+                  "start": Object {
+                    "column": 1,
+                    "line": 21,
+                    "offset": 156,
+                  },
+                },
+                "title": null,
+                "type": "definition",
+                "url": "https://c.com",
+              },
+              "links": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "position": Object {
+                        "end": Object {
+                          "column": 7,
+                          "line": 19,
+                          "offset": 138,
+                        },
+                        "start": Object {
+                          "column": 2,
+                          "line": 19,
+                          "offset": 133,
+                        },
+                      },
+                      "type": "text",
+                      "value": "linkC",
+                    },
+                  ],
+                  "position": Object {
+                    "end": Object {
+                      "column": 23,
+                      "line": 19,
+                      "offset": 154,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 19,
+                      "offset": 132,
+                    },
+                  },
+                  "title": null,
+                  "type": "link",
+                  "url": "https://c.com",
+                },
+              ],
+            },
+            Section {
+              "children": Array [],
+              "heading": Object {
+                "children": Array [
+                  Object {
+                    "position": Object {
+                      "end": Object {
+                        "column": 10,
+                        "line": 23,
+                        "offset": 185,
+                      },
+                      "start": Object {
+                        "column": 5,
+                        "line": 23,
+                        "offset": 180,
+                      },
+                    },
+                    "type": "text",
+                    "value": "h3dup",
+                  },
+                ],
+                "depth": 3,
+                "position": Object {
+                  "end": Object {
+                    "column": 10,
+                    "line": 23,
+                    "offset": 185,
+                  },
+                  "start": Object {
+                    "column": 1,
+                    "line": 23,
+                    "offset": 176,
+                  },
+                },
+                "type": "heading",
+              },
+              "images": Array [],
+              "introEnd": Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "position": Object {
+                          "end": Object {
+                            "column": 7,
+                            "line": 25,
+                            "offset": 193,
+                          },
+                          "start": Object {
+                            "column": 2,
+                            "line": 25,
+                            "offset": 188,
+                          },
+                        },
+                        "type": "text",
+                        "value": "linkD",
+                      },
+                    ],
+                    "position": Object {
+                      "end": Object {
+                        "column": 23,
+                        "line": 25,
+                        "offset": 209,
+                      },
+                      "start": Object {
+                        "column": 1,
+                        "line": 25,
+                        "offset": 187,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://d.com",
+                  },
+                ],
+                "position": Object {
+                  "end": Object {
+                    "column": 23,
+                    "line": 25,
+                    "offset": 209,
+                  },
+                  "start": Object {
+                    "column": 1,
+                    "line": 25,
+                    "offset": 187,
+                  },
+                },
+                "type": "paragraph",
+              },
+              "links": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "position": Object {
+                        "end": Object {
+                          "column": 7,
+                          "line": 25,
+                          "offset": 193,
+                        },
+                        "start": Object {
+                          "column": 2,
+                          "line": 25,
+                          "offset": 188,
+                        },
+                      },
+                      "type": "text",
+                      "value": "linkD",
+                    },
+                  ],
+                  "position": Object {
+                    "end": Object {
+                      "column": 23,
+                      "line": 25,
+                      "offset": 209,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 25,
+                      "offset": 187,
+                    },
+                  },
+                  "title": null,
+                  "type": "link",
+                  "url": "https://d.com",
+                },
+              ],
+            },
+          ],
+          "heading": Object {
+            "children": Array [
+              Object {
+                "position": Object {
+                  "end": Object {
+                    "column": 6,
+                    "line": 7,
+                    "offset": 49,
+                  },
+                  "start": Object {
+                    "column": 4,
+                    "line": 7,
+                    "offset": 47,
+                  },
+                },
+                "type": "text",
+                "value": "h2",
+              },
+            ],
+            "depth": 2,
+            "position": Object {
+              "end": Object {
+                "column": 6,
+                "line": 7,
+                "offset": 49,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 7,
+                "offset": 44,
+              },
+            },
+            "type": "heading",
+          },
+          "images": Array [],
+          "introEnd": Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "position": Object {
+                      "end": Object {
+                        "column": 7,
+                        "line": 13,
+                        "offset": 99,
+                      },
+                      "start": Object {
+                        "column": 2,
+                        "line": 13,
+                        "offset": 94,
+                      },
+                    },
+                    "type": "text",
+                    "value": "linkB",
+                  },
+                ],
+                "position": Object {
+                  "end": Object {
+                    "column": 22,
+                    "line": 13,
+                    "offset": 114,
+                  },
+                  "start": Object {
+                    "column": 1,
+                    "line": 13,
+                    "offset": 93,
+                  },
+                },
+                "title": null,
+                "type": "link",
+                "url": "http://b.com",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 22,
+                "line": 13,
+                "offset": 114,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 13,
+                "offset": 93,
+              },
+            },
+            "type": "paragraph",
+          },
+          "links": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "position": Object {
+                    "end": Object {
+                      "column": 10,
+                      "line": 11,
+                      "offset": 66,
+                    },
+                    "start": Object {
+                      "column": 2,
+                      "line": 11,
+                      "offset": 58,
+                    },
+                  },
+                  "type": "text",
+                  "value": "linkADup",
+                },
+              ],
+              "position": Object {
+                "end": Object {
+                  "column": 35,
+                  "line": 11,
+                  "offset": 91,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 11,
+                  "offset": 57,
+                },
+              },
+              "title": "title a",
+              "type": "link",
+              "url": "http://a.com",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "position": Object {
+                    "end": Object {
+                      "column": 7,
+                      "line": 13,
+                      "offset": 99,
+                    },
+                    "start": Object {
+                      "column": 2,
+                      "line": 13,
+                      "offset": 94,
+                    },
+                  },
+                  "type": "text",
+                  "value": "linkB",
+                },
+              ],
+              "position": Object {
+                "end": Object {
+                  "column": 22,
+                  "line": 13,
+                  "offset": 114,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 13,
+                  "offset": 93,
+                },
+              },
+              "title": null,
+              "type": "link",
+              "url": "http://b.com",
+            },
+          ],
+        },
+        Section {
+          "children": Array [],
+          "heading": Object {
+            "children": Array [
+              Object {
+                "position": Object {
+                  "end": Object {
+                    "column": 6,
+                    "line": 27,
+                    "offset": 216,
+                  },
+                  "start": Object {
+                    "column": 4,
+                    "line": 27,
+                    "offset": 214,
+                  },
+                },
+                "type": "text",
+                "value": "h2",
+              },
+            ],
+            "depth": 2,
+            "position": Object {
+              "end": Object {
+                "column": 6,
+                "line": 27,
+                "offset": 216,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 27,
+                "offset": 211,
+              },
+            },
+            "type": "heading",
+          },
+          "images": Array [
+            Object {
+              "alt": "image1",
+              "position": Object {
+                "end": Object {
+                  "column": 33,
+                  "line": 31,
+                  "offset": 256,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 31,
+                  "offset": 224,
+                },
+              },
+              "title": null,
+              "type": "image",
+              "url": "https://foo.com/image",
+            },
+          ],
+          "introEnd": Object {
+            "children": Array [
+              Object {
+                "alt": "image1",
+                "position": Object {
+                  "end": Object {
+                    "column": 33,
+                    "line": 31,
+                    "offset": 256,
+                  },
+                  "start": Object {
+                    "column": 1,
+                    "line": 31,
+                    "offset": 224,
+                  },
+                },
+                "title": null,
+                "type": "image",
+                "url": "https://foo.com/image",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 33,
+                "line": 31,
+                "offset": 256,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 31,
+                "offset": 224,
+              },
+            },
+            "type": "paragraph",
+          },
+          "links": Array [],
+        },
+      ],
+      "heading": Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 5,
+                "line": 1,
+                "offset": 4,
+              },
+              "start": Object {
+                "column": 3,
+                "line": 1,
+                "offset": 2,
+              },
+            },
+            "type": "text",
+            "value": "h1",
+          },
+        ],
+        "depth": 1,
+        "position": Object {
+          "end": Object {
+            "column": 5,
+            "line": 1,
+            "offset": 4,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 1,
+            "offset": 0,
+          },
+        },
+        "type": "heading",
+      },
+      "images": Array [],
+      "introEnd": Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "position": Object {
+                  "end": Object {
+                    "column": 7,
+                    "line": 5,
+                    "offset": 16,
+                  },
+                  "start": Object {
+                    "column": 2,
+                    "line": 5,
+                    "offset": 11,
+                  },
+                },
+                "type": "text",
+                "value": "linkA",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 32,
+                "line": 5,
+                "offset": 41,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 5,
+                "offset": 10,
+              },
+            },
+            "title": "title a",
+            "type": "link",
+            "url": "http://a.com",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 33,
+            "line": 5,
+            "offset": 42,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 5,
+            "offset": 10,
+          },
+        },
+        "type": "paragraph",
+      },
+      "links": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Object {
+                "end": Object {
+                  "column": 7,
+                  "line": 5,
+                  "offset": 16,
+                },
+                "start": Object {
+                  "column": 2,
+                  "line": 5,
+                  "offset": 11,
+                },
+              },
+              "type": "text",
+              "value": "linkA",
+            },
+          ],
+          "position": Object {
+            "end": Object {
+              "column": 32,
+              "line": 5,
+              "offset": 41,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 5,
+              "offset": 10,
+            },
+          },
+          "title": "title a",
+          "type": "link",
+          "url": "http://a.com",
+        },
+      ],
+    },
+  ],
+  "definitions": Object {
+    "https://c.com": Object {
+      "": Object {
+        "identifier": "2",
+        "label": "2",
+        "position": Object {
+          "end": Object {
+            "column": 19,
+            "line": 21,
+            "offset": 174,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 21,
+            "offset": 156,
+          },
+        },
+        "title": null,
+        "type": "definition",
+        "url": "https://c.com",
+      },
+    },
+  },
+  "existing": Array [
+    "2",
+  ],
+  "images": Array [],
+  "introEnd": Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 5,
+                "line": 1,
+                "offset": 4,
+              },
+              "start": Object {
+                "column": 3,
+                "line": 1,
+                "offset": 2,
+              },
+            },
+            "type": "text",
+            "value": "h1",
+          },
+        ],
+        "depth": 1,
+        "position": Object {
+          "end": Object {
+            "column": 5,
+            "line": 1,
+            "offset": 4,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 1,
+            "offset": 0,
+          },
+        },
+        "type": "heading",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 3,
+                "line": 3,
+                "offset": 8,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 3,
+                "offset": 6,
+              },
+            },
+            "type": "text",
+            "value": "p1",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 3,
+            "line": 3,
+            "offset": 8,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 3,
+            "offset": 6,
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "position": Object {
+                  "end": Object {
+                    "column": 7,
+                    "line": 5,
+                    "offset": 16,
+                  },
+                  "start": Object {
+                    "column": 2,
+                    "line": 5,
+                    "offset": 11,
+                  },
+                },
+                "type": "text",
+                "value": "linkA",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 32,
+                "line": 5,
+                "offset": 41,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 5,
+                "offset": 10,
+              },
+            },
+            "title": "title a",
+            "type": "link",
+            "url": "http://a.com",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 33,
+            "line": 5,
+            "offset": 42,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 5,
+            "offset": 10,
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 6,
+                "line": 7,
+                "offset": 49,
+              },
+              "start": Object {
+                "column": 4,
+                "line": 7,
+                "offset": 47,
+              },
+            },
+            "type": "text",
+            "value": "h2",
+          },
+        ],
+        "depth": 2,
+        "position": Object {
+          "end": Object {
+            "column": 6,
+            "line": 7,
+            "offset": 49,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 7,
+            "offset": 44,
+          },
+        },
+        "type": "heading",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 5,
+                "line": 9,
+                "offset": 55,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 9,
+                "offset": 51,
+              },
+            },
+            "type": "text",
+            "value": "p1.1",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 5,
+            "line": 9,
+            "offset": 55,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 9,
+            "offset": 51,
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "position": Object {
+                  "end": Object {
+                    "column": 10,
+                    "line": 11,
+                    "offset": 66,
+                  },
+                  "start": Object {
+                    "column": 2,
+                    "line": 11,
+                    "offset": 58,
+                  },
+                },
+                "type": "text",
+                "value": "linkADup",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 35,
+                "line": 11,
+                "offset": 91,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 11,
+                "offset": 57,
+              },
+            },
+            "title": "title a",
+            "type": "link",
+            "url": "http://a.com",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 35,
+            "line": 11,
+            "offset": 91,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 11,
+            "offset": 57,
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "position": Object {
+                  "end": Object {
+                    "column": 7,
+                    "line": 13,
+                    "offset": 99,
+                  },
+                  "start": Object {
+                    "column": 2,
+                    "line": 13,
+                    "offset": 94,
+                  },
+                },
+                "type": "text",
+                "value": "linkB",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 22,
+                "line": 13,
+                "offset": 114,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 13,
+                "offset": 93,
+              },
+            },
+            "title": null,
+            "type": "link",
+            "url": "http://b.com",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 22,
+            "line": 13,
+            "offset": 114,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 13,
+            "offset": 93,
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 7,
+                "line": 15,
+                "offset": 122,
+              },
+              "start": Object {
+                "column": 5,
+                "line": 15,
+                "offset": 120,
+              },
+            },
+            "type": "text",
+            "value": "h3",
+          },
+        ],
+        "depth": 3,
+        "position": Object {
+          "end": Object {
+            "column": 7,
+            "line": 15,
+            "offset": 122,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 15,
+            "offset": 116,
+          },
+        },
+        "type": "heading",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 7,
+                "line": 17,
+                "offset": 130,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 17,
+                "offset": 124,
+              },
+            },
+            "type": "text",
+            "value": "p1.1.1",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 7,
+            "line": 17,
+            "offset": 130,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 17,
+            "offset": 124,
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "position": Object {
+                  "end": Object {
+                    "column": 7,
+                    "line": 19,
+                    "offset": 138,
+                  },
+                  "start": Object {
+                    "column": 2,
+                    "line": 19,
+                    "offset": 133,
+                  },
+                },
+                "type": "text",
+                "value": "linkC",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 23,
+                "line": 19,
+                "offset": 154,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 19,
+                "offset": 132,
+              },
+            },
+            "title": null,
+            "type": "link",
+            "url": "https://c.com",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 23,
+            "line": 19,
+            "offset": 154,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 19,
+            "offset": 132,
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "identifier": "2",
+        "label": "2",
+        "position": Object {
+          "end": Object {
+            "column": 19,
+            "line": 21,
+            "offset": 174,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 21,
+            "offset": 156,
+          },
+        },
+        "title": null,
+        "type": "definition",
+        "url": "https://c.com",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 10,
+                "line": 23,
+                "offset": 185,
+              },
+              "start": Object {
+                "column": 5,
+                "line": 23,
+                "offset": 180,
+              },
+            },
+            "type": "text",
+            "value": "h3dup",
+          },
+        ],
+        "depth": 3,
+        "position": Object {
+          "end": Object {
+            "column": 10,
+            "line": 23,
+            "offset": 185,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 23,
+            "offset": 176,
+          },
+        },
+        "type": "heading",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "position": Object {
+                  "end": Object {
+                    "column": 7,
+                    "line": 25,
+                    "offset": 193,
+                  },
+                  "start": Object {
+                    "column": 2,
+                    "line": 25,
+                    "offset": 188,
+                  },
+                },
+                "type": "text",
+                "value": "linkD",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 23,
+                "line": 25,
+                "offset": 209,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 25,
+                "offset": 187,
+              },
+            },
+            "title": null,
+            "type": "link",
+            "url": "https://d.com",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 23,
+            "line": 25,
+            "offset": 209,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 25,
+            "offset": 187,
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 6,
+                "line": 27,
+                "offset": 216,
+              },
+              "start": Object {
+                "column": 4,
+                "line": 27,
+                "offset": 214,
+              },
+            },
+            "type": "text",
+            "value": "h2",
+          },
+        ],
+        "depth": 2,
+        "position": Object {
+          "end": Object {
+            "column": 6,
+            "line": 27,
+            "offset": 216,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 27,
+            "offset": 211,
+          },
+        },
+        "type": "heading",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 5,
+                "line": 29,
+                "offset": 222,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 29,
+                "offset": 218,
+              },
+            },
+            "type": "text",
+            "value": "p1.2",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 5,
+            "line": 29,
+            "offset": 222,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 29,
+            "offset": 218,
+          },
+        },
+        "type": "paragraph",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "alt": "image1",
+            "position": Object {
+              "end": Object {
+                "column": 33,
+                "line": 31,
+                "offset": 256,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 31,
+                "offset": 224,
+              },
+            },
+            "title": null,
+            "type": "image",
+            "url": "https://foo.com/image",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 33,
+            "line": 31,
+            "offset": 256,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 31,
+            "offset": 224,
+          },
+        },
+        "type": "paragraph",
+      },
+    ],
+    "position": Object {
+      "end": Object {
+        "column": 1,
+        "line": 32,
+        "offset": 257,
+      },
+      "start": Object {
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+    },
+    "type": "root",
+  },
+  "links": Array [],
+  "maxDepth": 3,
+}
+`;
+
+exports[`fixtures 2`] = `
+Outline {
+  "children": Array [
+    Section {
+      "children": Array [],
+      "heading": Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 6,
+                "line": 5,
+                "offset": 62,
+              },
+              "start": Object {
+                "column": 4,
+                "line": 5,
+                "offset": 60,
+              },
+            },
+            "type": "text",
+            "value": "h1",
+          },
+        ],
+        "depth": 2,
+        "position": Object {
+          "end": Object {
+            "column": 6,
+            "line": 5,
+            "offset": 62,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 5,
+            "offset": 57,
+          },
+        },
+        "type": "heading",
+      },
+      "images": Array [],
+      "introEnd": Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "position": Object {
+                  "end": Object {
+                    "column": 7,
+                    "line": 9,
+                    "offset": 74,
+                  },
+                  "start": Object {
+                    "column": 2,
+                    "line": 9,
+                    "offset": 69,
+                  },
+                },
+                "type": "text",
+                "value": "linkA",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 32,
+                "line": 9,
+                "offset": 99,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 9,
+                "offset": 68,
+              },
+            },
+            "title": "title a",
+            "type": "link",
+            "url": "http://a.com",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 33,
+            "line": 9,
+            "offset": 100,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 9,
+            "offset": 68,
+          },
+        },
+        "type": "paragraph",
+      },
+      "links": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Object {
+                "end": Object {
+                  "column": 7,
+                  "line": 9,
+                  "offset": 74,
+                },
+                "start": Object {
+                  "column": 2,
+                  "line": 9,
+                  "offset": 69,
+                },
+              },
+              "type": "text",
+              "value": "linkA",
+            },
+          ],
+          "position": Object {
+            "end": Object {
+              "column": 32,
+              "line": 9,
+              "offset": 99,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 9,
+              "offset": 68,
+            },
+          },
+          "title": "title a",
+          "type": "link",
+          "url": "http://a.com",
+        },
+      ],
+    },
+    Section {
+      "children": Array [],
+      "heading": Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 4,
+                "line": 11,
+                "offset": 105,
+              },
+              "start": Object {
+                "column": 3,
+                "line": 11,
+                "offset": 104,
+              },
+            },
+            "type": "text",
+            "value": "h",
+          },
+        ],
+        "depth": 1,
+        "position": Object {
+          "end": Object {
+            "column": 4,
+            "line": 11,
+            "offset": 105,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 11,
+            "offset": 102,
+          },
+        },
+        "type": "heading",
+      },
+      "images": Array [],
+      "introEnd": Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "position": Object {
+                  "end": Object {
+                    "column": 7,
+                    "line": 17,
+                    "offset": 153,
+                  },
+                  "start": Object {
+                    "column": 2,
+                    "line": 17,
+                    "offset": 148,
+                  },
+                },
+                "type": "text",
+                "value": "linkB",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 22,
+                "line": 17,
+                "offset": 168,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 17,
+                "offset": 147,
+              },
+            },
+            "title": null,
+            "type": "link",
+            "url": "http://b.com",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 22,
+            "line": 17,
+            "offset": 168,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 17,
+            "offset": 147,
+          },
+        },
+        "type": "paragraph",
+      },
+      "links": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Object {
+                "end": Object {
+                  "column": 10,
+                  "line": 15,
+                  "offset": 120,
+                },
+                "start": Object {
+                  "column": 2,
+                  "line": 15,
+                  "offset": 112,
+                },
+              },
+              "type": "text",
+              "value": "linkADup",
+            },
+          ],
+          "position": Object {
+            "end": Object {
+              "column": 35,
+              "line": 15,
+              "offset": 145,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 15,
+              "offset": 111,
+            },
+          },
+          "title": "title a",
+          "type": "link",
+          "url": "http://a.com",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "position": Object {
+                "end": Object {
+                  "column": 7,
+                  "line": 17,
+                  "offset": 153,
+                },
+                "start": Object {
+                  "column": 2,
+                  "line": 17,
+                  "offset": 148,
+                },
+              },
+              "type": "text",
+              "value": "linkB",
+            },
+          ],
+          "position": Object {
+            "end": Object {
+              "column": 22,
+              "line": 17,
+              "offset": 168,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 17,
+              "offset": 147,
+            },
+          },
+          "title": null,
+          "type": "link",
+          "url": "http://b.com",
+        },
+      ],
+    },
+    Section {
+      "children": Array [
+        Section {
+          "children": Array [
+            Section {
+              "children": Array [],
+              "heading": Object {
+                "children": Array [
+                  Object {
+                    "position": Object {
+                      "end": Object {
+                        "column": 10,
+                        "line": 35,
+                        "offset": 304,
+                      },
+                      "start": Object {
+                        "column": 8,
+                        "line": 35,
+                        "offset": 302,
+                      },
+                    },
+                    "type": "text",
+                    "value": "h6",
+                  },
+                ],
+                "depth": 6,
+                "position": Object {
+                  "end": Object {
+                    "column": 10,
+                    "line": 35,
+                    "offset": 304,
+                  },
+                  "start": Object {
+                    "column": 1,
+                    "line": 35,
+                    "offset": 295,
+                  },
+                },
+                "type": "heading",
+              },
+              "images": Array [],
+              "introEnd": Object {
+                "children": Array [
+                  Object {
+                    "position": Object {
+                      "end": Object {
+                        "column": 10,
+                        "line": 35,
+                        "offset": 304,
+                      },
+                      "start": Object {
+                        "column": 8,
+                        "line": 35,
+                        "offset": 302,
+                      },
+                    },
+                    "type": "text",
+                    "value": "h6",
+                  },
+                ],
+                "depth": 6,
+                "position": Object {
+                  "end": Object {
+                    "column": 10,
+                    "line": 35,
+                    "offset": 304,
+                  },
+                  "start": Object {
+                    "column": 1,
+                    "line": 35,
+                    "offset": 295,
+                  },
+                },
+                "type": "heading",
+              },
+              "links": Array [],
+            },
+          ],
+          "heading": Object {
+            "children": Array [
+              Object {
+                "position": Object {
+                  "end": Object {
+                    "column": 6,
+                    "line": 27,
+                    "offset": 229,
+                  },
+                  "start": Object {
+                    "column": 4,
+                    "line": 27,
+                    "offset": 227,
+                  },
+                },
+                "type": "text",
+                "value": "h2",
+              },
+            ],
+            "depth": 2,
+            "position": Object {
+              "end": Object {
+                "column": 6,
+                "line": 27,
+                "offset": 229,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 27,
+                "offset": 224,
+              },
+            },
+            "type": "heading",
+          },
+          "images": Array [
+            Object {
+              "alt": "image1",
+              "position": Object {
+                "end": Object {
+                  "column": 33,
+                  "line": 33,
+                  "offset": 293,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 33,
+                  "offset": 261,
+                },
+              },
+              "title": null,
+              "type": "image",
+              "url": "https://foo.com/image",
+            },
+          ],
+          "introEnd": Object {
+            "children": Array [
+              Object {
+                "alt": "image1",
+                "position": Object {
+                  "end": Object {
+                    "column": 33,
+                    "line": 33,
+                    "offset": 293,
+                  },
+                  "start": Object {
+                    "column": 1,
+                    "line": 33,
+                    "offset": 261,
+                  },
+                },
+                "title": null,
+                "type": "image",
+                "url": "https://foo.com/image",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 33,
+                "line": 33,
+                "offset": 293,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 33,
+                "offset": 261,
+              },
+            },
+            "type": "paragraph",
+          },
+          "links": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "position": Object {
+                    "end": Object {
+                      "column": 7,
+                      "line": 31,
+                      "offset": 243,
+                    },
+                    "start": Object {
+                      "column": 2,
+                      "line": 31,
+                      "offset": 238,
+                    },
+                  },
+                  "type": "text",
+                  "value": "linkD",
+                },
+              ],
+              "position": Object {
+                "end": Object {
+                  "column": 23,
+                  "line": 31,
+                  "offset": 259,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 31,
+                  "offset": 237,
+                },
+              },
+              "title": null,
+              "type": "link",
+              "url": "https://d.com",
+            },
+          ],
+        },
+      ],
+      "heading": Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 5,
+                "line": 19,
+                "offset": 174,
+              },
+              "start": Object {
+                "column": 3,
+                "line": 19,
+                "offset": 172,
+              },
+            },
+            "type": "text",
+            "value": "h3",
+          },
+        ],
+        "depth": 1,
+        "position": Object {
+          "end": Object {
+            "column": 5,
+            "line": 19,
+            "offset": 174,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 19,
+            "offset": 170,
+          },
+        },
+        "type": "heading",
+      },
+      "images": Array [],
+      "introEnd": Object {
+        "identifier": "2",
+        "label": "2",
+        "position": Object {
+          "end": Object {
+            "column": 19,
+            "line": 25,
+            "offset": 222,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 25,
+            "offset": 204,
+          },
+        },
+        "title": null,
+        "type": "definition",
+        "url": "https://c.com",
+      },
+      "links": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Object {
+                "end": Object {
+                  "column": 7,
+                  "line": 23,
+                  "offset": 186,
+                },
+                "start": Object {
+                  "column": 2,
+                  "line": 23,
+                  "offset": 181,
+                },
+              },
+              "type": "text",
+              "value": "linkC",
+            },
+          ],
+          "position": Object {
+            "end": Object {
+              "column": 23,
+              "line": 23,
+              "offset": 202,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 23,
+              "offset": 180,
+            },
+          },
+          "title": null,
+          "type": "link",
+          "url": "https://c.com",
+        },
+      ],
+    },
+  ],
+  "definitions": Object {
+    "https://c.com": Object {
+      "": Object {
+        "identifier": "2",
+        "label": "2",
+        "position": Object {
+          "end": Object {
+            "column": 19,
+            "line": 25,
+            "offset": 222,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 25,
+            "offset": 204,
+          },
+        },
+        "title": null,
+        "type": "definition",
+        "url": "https://c.com",
+      },
+    },
+  },
+  "existing": Array [
+    "2",
+  ],
+  "images": Array [],
+  "introEnd": Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "position": Object {
+              "end": Object {
+                "column": 7,
+                "line": 3,
+                "offset": 16,
+              },
+              "start": Object {
+                "column": 2,
+                "line": 3,
+                "offset": 11,
+              },
+            },
+            "type": "text",
+            "value": "link0",
+          },
+        ],
+        "position": Object {
+          "end": Object {
+            "column": 45,
+            "line": 3,
+            "offset": 54,
+          },
+          "start": Object {
+            "column": 1,
+            "line": 3,
+            "offset": 10,
+          },
+        },
+        "title": "Example Domain",
+        "type": "link",
+        "url": "http://example.com",
+      },
+    ],
+    "position": Object {
+      "end": Object {
+        "column": 46,
+        "line": 3,
+        "offset": 55,
+      },
+      "start": Object {
+        "column": 1,
+        "line": 3,
+        "offset": 10,
+      },
+    },
+    "type": "paragraph",
+  },
+  "links": Array [
+    Object {
+      "children": Array [
+        Object {
+          "position": Object {
+            "end": Object {
+              "column": 7,
+              "line": 3,
+              "offset": 16,
+            },
+            "start": Object {
+              "column": 2,
+              "line": 3,
+              "offset": 11,
+            },
+          },
+          "type": "text",
+          "value": "link0",
+        },
+      ],
+      "position": Object {
+        "end": Object {
+          "column": 45,
+          "line": 3,
+          "offset": 54,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 3,
+          "offset": 10,
+        },
+      },
+      "title": "Example Domain",
+      "type": "link",
+      "url": "http://example.com",
+    },
+  ],
+  "maxDepth": 6,
+}
+`;

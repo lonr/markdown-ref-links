@@ -1,0 +1,41 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run currently opened remark-ref-links test",
+      "cwd": "${workspaceFolder}/packages/remark-ref-links/",
+      "program": "${workspaceFolder}/packages/remark-ref-links/node_modules/jest/bin/jest.js",
+      "args": ["--runInBand", "--no-cache", "--no-coverage", "${fileBasename}"],
+      "sourceMaps": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run currently opened ref-links-utils test",
+      "cwd": "${workspaceFolder}/packages/ref-links-utils/",
+      "program": "${workspaceFolder}/packages/ref-links-utils/node_modules/jest/bin/jest.js",
+      "args": ["--runInBand", "--no-cache", "--no-coverage", "${fileBasename}"],
+      "sourceMaps": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run currently opened markdown-ref-links test",
+      "cwd": "${workspaceFolder}/packages/markdown-ref-links/",
+      "program": "${workspaceFolder}/packages/markdown-ref-links/node_modules/jest/bin/jest.js",
+      "args": ["--runInBand", "--no-cache", "--no-coverage", "${fileBasename}"],
+      "sourceMaps": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}

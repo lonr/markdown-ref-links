@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "composite": false,
+    "rootDir": "."
+  },
+  "include": [
+    "src",
+    "tests",
+    "typings",
+    "rollup.config.ts",
+    "jest.config.ts",
+  ]
+}

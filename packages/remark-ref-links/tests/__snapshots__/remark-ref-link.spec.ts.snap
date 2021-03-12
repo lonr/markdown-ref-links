@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fixtures with default settings 1`] = `
+"# h1
+
+p1
+
+[linkA][1]
+
+[1]: http://a.com \\"title a\\"
+
+## h2
+
+p1.1
+
+[linkADup][1]
+
+[linkB][3]
+
+[3]: http://b.com
+
+### h3
+
+p1.1.1
+
+[linkC][2]
+
+[2]: https://c.com
+
+### h3dup
+
+[linkD][4]
+
+[4]: https://d.com
+
+## h2
+
+p1.2
+
+![image1][6]
+
+[![img][7]][5]
+
+[5]: https://foo.com
+
+[6]: https://foo.com/image
+
+[7]: https://foo.img
+"
+`;
+
+exports[`fixtures with default settings 2`] = `
+"big bang
+
+[link0][1]
+
+[1]: http://example.com \\"Example Domain\\"
+
+## h1
+
+p1
+
+[linkA][3]
+
+[3]: http://a.com \\"title a\\"
+
+# h
+
+p2
+
+[linkADup][3]
+
+[linkB][4]
+
+[4]: http://b.com
+
+# h3
+
+p3
+
+[linkC][2]
+
+[2]: https://c.com
+
+## h2
+
+p3.1
+
+[linkD][5]
+
+![image1][6]
+
+[5]: https://d.com
+
+[6]: https://foo.com/image
+
+###### h6
+"
+`;
+
+exports[`fixtures with settings {allDuplicate: true} 1`] = `
+"# h1
+
+p1
+
+[linkA][1]
+
+[1]: http://a.com \\"title a\\"
+
+## h2
+
+p1.1
+
+[linkADup][1]
+
+[linkB][3]
+
+[1]: http://a.com \\"title a\\"
+
+[3]: http://b.com
+
+### h3
+
+p1.1.1
+
+[linkC][2]
+
+[2]: https://c.com
+
+[2]: https://c.com
+
+### h3dup
+
+[linkD][4]
+
+[4]: https://d.com
+
+## h2
+
+p1.2
+
+![image1][6]
+
+[![img][7]][5]
+
+[5]: https://foo.com
+
+[6]: https://foo.com/image
+
+[7]: https://foo.img
+"
+`;
+
+exports[`fixtures with settings {allDuplicate: true} 2`] = `
+"big bang
+
+[link0][1]
+
+[1]: http://example.com \\"Example Domain\\"
+
+## h1
+
+p1
+
+[linkA][3]
+
+[3]: http://a.com \\"title a\\"
+
+# h
+
+p2
+
+[linkADup][3]
+
+[linkB][4]
+
+[3]: http://a.com \\"title a\\"
+
+[4]: http://b.com
+
+# h3
+
+p3
+
+[linkC][2]
+
+[2]: https://c.com
+
+[2]: https://c.com
+
+## h2
+
+p3.1
+
+[linkD][5]
+
+![image1][6]
+
+[5]: https://d.com
+
+[6]: https://foo.com/image
+
+###### h6
+"
+`;
+
+exports[`fixtures with settings {maxDepth: 0} 1`] = `
+"# h1
+
+p1
+
+[linkA][1]
+
+## h2
+
+p1.1
+
+[linkADup][1]
+
+[linkB][3]
+
+### h3
+
+p1.1.1
+
+[linkC][2]
+
+[2]: https://c.com
+
+### h3dup
+
+[linkD][4]
+
+## h2
+
+p1.2
+
+![image1][6]
+
+[![img][7]][5]
+
+[1]: http://a.com \\"title a\\"
+
+[3]: http://b.com
+
+[4]: https://d.com
+
+[5]: https://foo.com
+
+[6]: https://foo.com/image
+
+[7]: https://foo.img
+"
+`;
+
+exports[`fixtures with settings {maxDepth: 0} 2`] = `
+"big bang
+
+[link0][1]
+
+## h1
+
+p1
+
+[linkA][3]
+
+# h
+
+p2
+
+[linkADup][3]
+
+[linkB][4]
+
+# h3
+
+p3
+
+[linkC][2]
+
+[2]: https://c.com
+
+## h2
+
+p3.1
+
+[linkD][5]
+
+![image1][6]
+
+###### h6
+
+[1]: http://example.com \\"Example Domain\\"
+
+[3]: http://a.com \\"title a\\"
+
+[4]: http://b.com
+
+[5]: https://d.com
+
+[6]: https://foo.com/image
+"
+`;
+
+exports[`fixtures with settings {maxDepth: 2} 1`] = `
+"# h1
+
+p1
+
+[linkA][1]
+
+[1]: http://a.com \\"title a\\"
+
+## h2
+
+p1.1
+
+[linkADup][1]
+
+[linkB][3]
+
+### h3
+
+p1.1.1
+
+[linkC][2]
+
+[2]: https://c.com
+
+### h3dup
+
+[linkD][4]
+
+[3]: http://b.com
+
+[4]: https://d.com
+
+## h2
+
+p1.2
+
+![image1][6]
+
+[![img][7]][5]
+
+[5]: https://foo.com
+
+[6]: https://foo.com/image
+
+[7]: https://foo.img
+"
+`;
+
+exports[`fixtures with settings {maxDepth: 2} 2`] = `
+"big bang
+
+[link0][1]
+
+[1]: http://example.com \\"Example Domain\\"
+
+## h1
+
+p1
+
+[linkA][3]
+
+[3]: http://a.com \\"title a\\"
+
+# h
+
+p2
+
+[linkADup][3]
+
+[linkB][4]
+
+[4]: http://b.com
+
+# h3
+
+p3
+
+[linkC][2]
+
+[2]: https://c.com
+
+## h2
+
+p3.1
+
+[linkD][5]
+
+![image1][6]
+
+###### h6
+
+[5]: https://d.com
+
+[6]: https://foo.com/image
+"
+`;

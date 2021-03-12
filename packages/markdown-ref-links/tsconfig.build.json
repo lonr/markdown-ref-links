@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "composite": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {"@lonr/ref-links-utils": ["../ref-links-utils/src/ref-links-utils"]}
+  },
+  "include": ["src", "typings"],
+  "references": [
+    {
+      "path": "../ref-links-utils/tsconfig.build.json"
+    }
+  ]
+}
